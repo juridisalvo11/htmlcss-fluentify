@@ -112,13 +112,12 @@ h1 {
 
 .blocco-grigio {
     height: 150px;
+    width: 1200px;
     background-color: #f9f9f9;
 }
 
 h4,p {
     text-align: center;
-
-
 }
 
 h4 {
@@ -133,4 +132,125 @@ h4 {
     font-size: 21px;
     color: #999;
     padding-top: 10px;
+}
+
+/* img {
+    text-align: center;
+} */
+
+#profile {
+    width: 35%;
+    margin: 10% 25%;
+}
+
+#doc {
+    width: 40%;
+    margin: 10% 25%;
+
+}
+
+#computer {
+    width: 55%;
+    margin: 10% 25%;
+}
+
+.block-row li {
+    list-style-type: none;
+    float: left;
+    width: 400px;
+}
+
+.immagine p {
+    color: green;
+    font-size: 26px;
+}
+
+#scritta2 {
+    margin-top: 14px;
+}
+
+#scritta3 {
+    margin-top: 7px;
+}
+
+li hr:nth-child(3) {
+    margin-left: 45%;
+    width: 35px;
+    margin-top: 30px;
+    border-top: 2px solid;
+    opacity: 0.3;
+}
+
+#centrale {
+    margin-top: 59px;
+}
+
+ li p:last-child{
+    text-align: center;
+    color: #999;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#seconda-sezione {
+    height: 500px;
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.vuoto {
+    height: 400px;
+    width: 10%;
+    float: left;
+}
+
+.grafico {
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.terzo-blocco {
+    height: 400px;
+    width: 50%;
+    float: left;
+    padding-left: 107px;
+    padding-right: 60px;
+    padding-top: 165px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.terzo-blocco strong:first-child {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: left;
+}
+
+.terzo-blocco p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+    line-height: 25px;
+    color: #999;
+    text-align: left;
+}
+
+.terzo-blocco a:last-child {
+    color: #98c8f8;
+    text-decoration: underline;
+    text-align: left;
+    font-weight: bold;
+}
+
+#test {
+    margin-top: 20px;
 }
